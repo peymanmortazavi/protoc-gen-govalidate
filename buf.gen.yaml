@@ -1,2 +1,5 @@
 version: v1
-directories: proto
+plugins:
+  - name: go
+    out: .
+    opt: "Mproto/govalidate/annotations.proto=internal/options"
